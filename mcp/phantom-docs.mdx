@@ -1,0 +1,18 @@
+# Phantom MCP (Docs Access)
+
+**What it is:** An MCP server/endpoint that allows AI coding assistants (Cursor, Claude, VS Code, etc.) to search and retrieve Phantom developer documentation.
+
+## Why it matters
+- Helps your AI assistant answer Phantom integration questions with up-to-date docs
+- Reduces hallucinations during implementation
+
+## Example config (Cursor)
+```json
+{
+  "mcpServers": {
+    "phantom-docs": {
+      "type": "sse",
+      "url": "https://docs.phantom.com/mcp"
+    }
+  }
+}

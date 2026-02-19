@@ -60,6 +60,18 @@ Used blindly, it increases bugs.
 This repository aims to promote structured, responsible AI usage
 in Solana development.
 
+
+## MCP Servers
+
+AI-accessible tooling layers for Solana development.
+
+- **Solana Official MCP** — official documentation access  
+  → https://mcp.solana.com/
+
+- **Phantom MCP (Wallet Actions)** — agent-based wallet operations (sign, swap, address mgmt)
+
+- **Phantom MCP (Docs Access)** — AI search over Phantom developer documentation
+
 ---
 
 Maintained by an active Solana builder.

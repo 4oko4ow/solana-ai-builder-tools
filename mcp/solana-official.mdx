@@ -1,0 +1,28 @@
+# Solana Official MCP Server
+
+**What it is:**  
+The official Solana MCP endpoint that allows MCP-compatible AI clients
+to query Solana documentation and ecosystem resources.
+
+URL:
+https://mcp.solana.com/
+
+## Why it matters
+
+- Enables AI assistants to access official Solana docs
+- Reduces hallucinations in contract and RPC development
+- Useful when building Anchor programs, transactions, or tooling
+
+## Example Configuration
+
+Example (generic MCP client config):
+
+```json
+{
+  "mcpServers": {
+    "solana-docs": {
+      "type": "sse",
+      "url": "https://mcp.solana.com/"
+    }
+  }
+}
