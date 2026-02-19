@@ -57,6 +57,8 @@ This repo is organized for two audiences:
 
 - Solana `LLMs.txt` (LLM-optimized docs corpus): [https://solana.com/llms.txt](https://solana.com/llms.txt)
 - Solana official `SKILL.md`: [https://solana.com/SKILL.md](https://solana.com/SKILL.md)
+- Solana `solana-dev` skill install guide: [skills/solana-dev.md](./skills/solana-dev.md)
+- Solana `solana-dev` official repo (main): [https://github.com/solana-foundation/solana-dev-skill/tree/main](https://github.com/solana-foundation/solana-dev-skill/tree/main)
 - Local repository skill playbook: [SKILL.md](./SKILL.md)
 
 ## Contributing

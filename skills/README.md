@@ -13,6 +13,7 @@ This section defines patterns for agent skills used in Solana development workfl
 
 ## Suggested skill modules
 
+- `solana-dev` — end-to-end Solana playbook (install + structure guide: [solana-dev.md](./solana-dev.md))
 - `anchor-scaffold` — bootstrap a new Anchor instruction/test skeleton
 - `solana-rpc-debugger` — parse and classify transaction failures
 - `idl-auditor` — check account/instruction compatibility risks
