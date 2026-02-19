@@ -1,13 +1,22 @@
 # Solana AI Builder Tools
 
 A curated collection of AI-assisted workflows, structured prompts, 
-and development helpers for building on Solana.
+and MCP integrations for building on Solana.
 
-This repository focuses on practical usage and real-world development acceleration.
+Focused on practical acceleration.
 
 ---
 
-## What is inside
+## Repository Structure
+
+- `/workflows` — AI prompt templates for development tasks
+- `/mcp` — Model Context Protocol servers relevant to Solana builders
+- `/architecture` — on-chain design and product patterns
+- `/security` — review checklists and validation prompts
+
+---
+
+## What is Included
 
 - Smart contract scaffolding prompts (Anchor)
 - Test generation templates
@@ -17,60 +26,48 @@ This repository focuses on practical usage and real-world development accelerati
 - RPC debugging helpers
 - On-chain architecture guidance
 - Game & token economy design prompts
+- MCP integrations
 
 ---
 
-## Why this exists
+## Quick Start
 
-Building on Solana is powerful but complex.
+1. Navigate to the relevant folder (e.g. `/workflows` or `/mcp`)
+2. Copy the structured prompt template
+3. Adapt it to your context
+4. Review and validate the output manually
 
-AI can significantly reduce friction when used correctly.
-
-This repository systematizes structured workflows 
-that help developers:
-
-- Ship faster
-- Reduce boilerplate
-- Catch mistakes earlier
-- Think more clearly about architecture
+AI accelerates — it does not replace understanding.
 
 ---
-
-## How to use
-
-Each section contains:
-
-- A clear task description
-- A structured AI prompt template
-- Expected output format
-- Notes and caveats
-
-These workflows are meant to assist development,
-not replace understanding of Solana fundamentals.
-
----
-
-## Philosophy
-
-AI is an acceleration layer.
-
-Used properly, it increases leverage.
-Used blindly, it increases bugs.
-
-This repository aims to promote structured, responsible AI usage
-in Solana development.
-
 
 ## MCP Servers
 
-AI-accessible tooling layers for Solana development.
+Model Context Protocol (MCP) servers allow AI agents 
+to access structured documentation and tooling.
 
 - **Solana Official MCP** — official documentation access  
-  → https://mcp.solana.com/
+  https://mcp.solana.com/
 
-- **Phantom MCP (Wallet Actions)** — agent-based wallet operations (sign, swap, address mgmt)
+- **Phantom MCP (Wallet Actions)** — agent-based wallet operations
 
 - **Phantom MCP (Docs Access)** — AI search over Phantom developer documentation
+
+See `/mcp` for details.
+
+---
+
+## Why This Exists
+
+Solana development is powerful but complex.
+
+This repository systematizes AI-assisted workflows
+that help developers:
+
+- Ship faster
+- Reduce repetitive boilerplate
+- Improve architectural clarity
+- Catch issues earlier
 
 ---
 
