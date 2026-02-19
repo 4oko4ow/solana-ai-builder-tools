@@ -6,7 +6,10 @@ This section defines patterns for agent skills used in Solana development workfl
 
 - Skill blueprints (what task, inputs, outputs, constraints)
 - Example prompts/tools for repeatable workflows
-- Integration notes for Codex/agent environments
+- Integration notes for Codex, Claude Code, Cursor, and other agent environments
+- Upstream references:
+  - Solana `LLMs.txt`: https://solana.com/llms.txt
+  - Solana `SKILL.md`: https://solana.com/SKILL.md
 
 ## Suggested skill modules
 
