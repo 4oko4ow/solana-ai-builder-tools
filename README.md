@@ -1,75 +1,42 @@
 # Solana AI Builder Tools
 
-A curated collection of AI-assisted workflows, structured prompts, 
-and MCP integrations for building on Solana.
+Practical AI tooling for building on Solana.
 
-Focused on practical acceleration.
+This repo is organized for two audiences:
+- **Vibecoders**: want to ship quickly with guided prompts and safe defaults.
+- **Developers**: want deterministic workflows, stronger validation, and production rigor.
 
----
+## Start Here
 
-## Repository Structure
+1. Pick your path:
+   - `/pathways/vibecoder.md`
+   - `/pathways/developer.md`
+2. Connect MCP servers in `/mcp`.
+3. Run a workflow from `/workflows`.
+4. Apply architecture/security checks before shipping.
 
-- `/workflows` — AI prompt templates for development tasks
-- `/mcp` — Model Context Protocol servers relevant to Solana builders
-- `/architecture` — on-chain design and product patterns
-- `/security` — review checklists and validation prompts
+## Repository Layout
 
----
+- `/pathways` — role-based onboarding flows
+- `/workflows` — reusable prompt+checklist workflows
+- `/mcp` — Solana/Phantom MCP integration docs
+- `/skills` — skill patterns for Codex/agent workflows
+- `/architecture` — Solana system design guidance
+- `/security` — threat modeling and review checklists
 
-## What is Included
+## Quick Wins
 
-- Smart contract scaffolding prompts (Anchor)
-- Test generation templates
-- Security review checklists
-- Transaction simulation workflows
-- Devnet deployment checklists
-- RPC debugging helpers
-- On-chain architecture guidance
-- Game & token economy design prompts
-- MCP integrations
+- Ship a first feature: `/workflows/ship-feature.md`
+- Debug failed transactions: `/workflows/debug-transaction.md`
+- Run pre-merge risk checks: `/workflows/security-review.md`
 
----
+## Contribution Standard
 
-## Quick Start
+Each new item should include:
+- What it solves
+- Inputs required
+- Output format
+- Validation checklist
+- Failure modes / caveats
 
-1. Navigate to the relevant folder (e.g. `/workflows` or `/mcp`)
-2. Copy the structured prompt template
-3. Adapt it to your context
-4. Review and validate the output manually
-
-AI accelerates — it does not replace understanding.
-
----
-
-## MCP Servers
-
-Model Context Protocol (MCP) servers allow AI agents 
-to access structured documentation and tooling.
-
-- **Solana Official MCP** — official documentation access  
-  https://mcp.solana.com/
-
-- **Phantom MCP (Wallet Actions)** — agent-based wallet operations
-
-- **Phantom MCP (Docs Access)** — AI search over Phantom developer documentation
-
-See `/mcp` for details.
-
----
-
-## Why This Exists
-
-Solana development is powerful but complex.
-
-This repository systematizes AI-assisted workflows
-that help developers:
-
-- Ship faster
-- Reduce repetitive boilerplate
-- Improve architectural clarity
-- Catch issues earlier
-
----
-
-Maintained by an active Solana builder.
-Focused on shipping.
+AI can accelerate delivery, but correctness still comes from testable engineering decisions.

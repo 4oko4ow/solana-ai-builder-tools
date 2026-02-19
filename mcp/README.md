@@ -1,60 +1,21 @@
 # MCP Servers for Solana Development
 
-This directory contains Model Context Protocol (MCP) servers 
-relevant to Solana builders.
+MCP makes AI outputs more reliable by grounding agents in real tools/docs.
 
-MCP servers allow AI agents to interact with structured tools, 
-documentation, wallets, and other development layers 
-in a reliable and deterministic way.
+## Included
 
----
+- `solana-official.mdx` — official Solana docs MCP
+- `phantom-wallet.mdx` — Phantom wallet actions MCP
+- `phantom-docs.mdx` — Phantom docs MCP endpoint
 
-## Why MCP matters
+## Recommended Setup Order
 
-Without MCP:
-AI assistants rely on raw text and can hallucinate.
+1. Add Solana official docs MCP
+2. Add Phantom docs MCP
+3. Add Phantom wallet MCP only for workflows that require wallet actions
 
-With MCP:
-AI assistants access structured endpoints and verified sources.
+## Safety Rules
 
-This improves:
-- Documentation accuracy
-- Wallet interaction safety
-- Development speed
-- Agent-based workflows
-
----
-
-## Categories
-
-### Documentation MCP
-Provides structured access to official documentation.
-
-### Wallet MCP
-Enables agent-based wallet operations such as:
-- Signing transactions
-- Managing addresses
-- Executing swaps
-
-### Tooling MCP
-Allows interaction with development infrastructure 
-(RPC, simulations, testing layers).
-
----
-
-## Included Servers
-
-- Solana Official MCP
-- Phantom MCP (Wallet Actions)
-- Phantom MCP (Docs Access)
-
----
-
-## Notes
-
-MCP increases capability but also increases responsibility.
-
-Always:
-- Verify generated code
-- Use test wallets when possible
-- Never expose private keys to AI prompts
+- Never expose private keys/secrets in prompts
+- Use test wallets/devnet while iterating
+- Treat all agent-generated actions as reviewable proposals first
